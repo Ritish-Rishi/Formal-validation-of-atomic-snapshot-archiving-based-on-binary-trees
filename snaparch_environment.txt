@@ -1,0 +1,9 @@
+java.version=23.0.2
+java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+java.vendor=Oracle Corporation
+os=Windows 11 10.0 (amd64)
+availableProcessors=8
+maxHeapMB=1990
+garbageCollectors=G1 Young Generation G1 Concurrent GC G1 Old Generation
+jvmArgs=[-javaagent:D:\IntelliJ IDEA Community Edition 2024.3.5\lib\idea_rt.jar=54042, -Dfile.encoding=UTF-8, -Dsun.stdout.encoding=UTF-8, -Dsun.stderr.encoding=UTF-8]
+quick=false trialsLatency=10 trialsThreads=7 trialsMemory=5 measureQueries=100000 warmupMs=1500 totalOps=1000000 warmupOps=150000 seed=20261107
