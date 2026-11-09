@@ -44,7 +44,7 @@ We use the **TLA+ Toolbox** and explicit-state model checker (**TLC**) to exhaus
 
 | Specification File | Concurrent Roles Modeled | Model Constants | Execution Diameter | Total States Generated | Distinct Reachable States | Peak Queue | Verification Status |
 | :--- | :--- | :--- | :---: | :---: | :---: | :---: | :---: |
-| **`SnapArchTree_Physical.tla`** | 3 Symmetrical Mutator Threads (`t1, t2, t3`) | `Components={101}`, `MaxClock=5`, `MaxNodes=7`, `Values={1}` | **101** | $>244,623,000$ | **90,241,964** | 1,678,843 | **Verified (0 Errors)** |
+| **`SnapArchTree_Physical.tla`** | 3 Symmetrical Mutator Threads (`t1, t2, t3`) | `Components={101}`, `MaxClock=5`, `MaxNodes=7`, `Values={1}` | **101** | $244,623,443$ | **90,241,964** | 1,678,843 | **Verified (0 Errors)** |
 | **`SnapArchTree_Search.tla`** | 2 Symmetrical Mutators (`t1, t2`) + `Reader` + `Exporter` + `Deleter` + `LiveReader` | `Components={101}`, `MaxClock=6`, `MaxNodes=7`, `Values={1,2}` | **108** | **64,209,101** | **25,018,679** | 948,098 | **Verified (0 Errors)** |
 
 ### Key Verified Invariants (Lemmas 1–6)
