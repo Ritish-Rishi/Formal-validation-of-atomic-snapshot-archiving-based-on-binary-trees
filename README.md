@@ -3,7 +3,7 @@
 This repository contains the formal verification specifications (**PlusCal / TLA+**), the standalone empirical benchmark suite (**Java**), and the raw experimental datasets for **SnapArchTree**, a lock-free concurrent protocol for archiving and querying historical atomic snapshots using an implicit level-order complete binary tree.
 
 This artifact accompanies the research paper:
-> **"Formal validation of atomic snapshot archiving based on binary trees"**  
+> **"Formal verification of binary tree based archival of atomic snapshots"**  
 > *FederatedHPC Workshop (co-located with IEEE HiPC 2026)*
 
 ---
